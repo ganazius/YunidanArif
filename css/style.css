@@ -469,6 +469,11 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 400px;
 }
 @media screen and (max-width: 480px) {
+.couple-main2 {
+  width: 90%;
+}
+}
+@media screen and (max-width: 480px) {
   #fh5co-header .couple-main {
     width: 250px;
   }
@@ -1211,9 +1216,9 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Satisfy", Arial, serif;
   color: #113468;
-  font-size: 30px;
+  font-size: 40px;
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
@@ -2003,6 +2008,7 @@ form label {
   font-family: "Estonia", Arial, serif;
   font-size: 25px;
   font-weight: bold;
+  color:#5f5f5f;
 }
 
 .tanggal{
