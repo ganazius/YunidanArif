@@ -185,14 +185,15 @@ echo "Test";
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 						<h1 style="color:yellow;">Undangan</h1>
 						<p style="margin-bottom: 0">Kepada Bapak/Ibu/Saudara/i</p>
-						<p>
+						<p id="namatamu"></p>
 <script>
+var tampil = document.getElementById("namatamu");
 var var = document.URL.match(/nama(=<=\?).*/)
-var nam = var[1];
-document.write("Nama : " + nam);
+var namtam = var[1];
+hasil.innerHTML = "Nama Tamu Undangan";
 </script>
 							
-						</p>
+						
 						<p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
 
 						<button class="btn btn-primary" id="open-invitation">Buka Undangan</button>
