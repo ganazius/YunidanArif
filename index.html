@@ -190,8 +190,10 @@ echo "Test";
 var tampil = document.getElementById("namatamu");
 var var = document.URL.match(/nama(=<=\?).*/)
 var namtam = var[1];
-tampil.innerHTML = "Nama Tamu Undangan";
+
+	$(document).ready(function() {
  $("#namatamu").html("Arif Himawan");
+});
 </script>
 							
 						
